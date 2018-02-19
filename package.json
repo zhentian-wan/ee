@@ -1,0 +1,70 @@
+{
+  "name": "emitter",
+  "version": "1.0.0",
+  "description": "Frosmo's recruitment emitter task",
+  "main": "index.js",
+  "scripts": {
+    "go": "nodemon --exec babel-node src/emitter.js",
+    "build": "webpack",
+    "start": "webpack --watch",
+    "setup": "npm install",
+    "test": "karma start",
+    "zip": "bestzip submission.zip src/ test/ karma.conf.js webpack.config.js package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Frosmo/emitter_task.git"
+  },
+  "keywords": [
+    "emitter",
+    "events",
+    "frosmo",
+    "mediator",
+    "pubsub",
+    "recruitment"
+  ],
+  "author": "Frosmo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "bestzip": "^1.1.4",
+    "bluebird": "^3.5.1",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "jsdoc-to-markdown": "^3.0.3",
+    "karma": "^2.0.0",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-source-map-support": "^1.2.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "vorpal": "^1.12.0",
+    "webpack": "^3.10.0"
+  },
+  "karmaPort": 9876,
+  "directoryName": {
+    "dist": "dist",
+    "repo": "emitter_task",
+    "src": "src"
+  },
+  "fileName": {
+    "bundle": "bundle.js",
+    "emitter": "emitter.js",
+    "specification": "specification.md",
+    "submission": "submission.zip"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "copy": "^0.3.1",
+    "nodemon": "^1.14.11"
+  }
+}
