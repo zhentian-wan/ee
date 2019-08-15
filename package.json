@@ -1,5 +1,5 @@
 {
-  "name": "ee",
+  "name": "evnemit",
   "version": "1.0.0",
   "description": "Event emitter",
   "main": "index.js",
