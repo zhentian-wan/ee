@@ -41,6 +41,11 @@
     "vorpal": "^1.12.0",
     "webpack": "^3.10.0"
   },
+  "fileName": {
+    "bundle": "bundle.js",
+    "emitter": "emitter.js",
+    "specification": "specification.md"
+  },
   "directoryName": {
     "dist": "dist",
     "repo": "ee",
