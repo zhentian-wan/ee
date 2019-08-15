@@ -42,7 +42,7 @@
     "webpack": "^3.10.0"
   },
   "fileName": {
-    "bundle": "bundle.js",
+    "bundle": "index.js",
     "emitter": "emitter.js",
     "specification": "specification.md"
   },
