@@ -1,4 +1,16 @@
 
+## Install
+
+`npm i evnemit --save`
+
+## Use
+
+```js
+const Emitter = require('evnemit');
+
+Emittor.on('xxx', () => {});
+```
+
 ## Functions
 
 <dl>
