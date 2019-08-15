@@ -1,6 +1,6 @@
 {
   "name": "evnemit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Event emitter",
   "main": "index.js",
   "scripts": {
@@ -60,5 +60,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/zhentian-wan/ee.git"
-  },
+  }
 }
