@@ -8,20 +8,11 @@
     "build": "webpack",
     "start": "webpack --watch",
     "setup": "npm install",
-    "test": "karma start",
-    "zip": "bestzip submission.zip src/ test/ karma.conf.js webpack.config.js package.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Frosmo/emitter_task.git"
+    "test": "karma start"
   },
   "keywords": [
     "emitter",
-    "events",
-    "frosmo",
-    "mediator",
-    "pubsub",
-    "recruitment"
+    "events"
   ],
   "author": "Frosmo",
   "license": "MIT",
