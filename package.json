@@ -1,5 +1,5 @@
 {
-  "name": "emitter",
+  "name": "ee",
   "version": "1.0.0",
   "description": "Event emitter",
   "main": "index.js",
